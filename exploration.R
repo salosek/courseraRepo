@@ -17,6 +17,7 @@ features <- read.table("features.txt")
 #head(features)
 #tail(features)
 str(features)
+count(features$V2)
 
 labels <- read.table("activity_labels.txt")
 head(labels)
